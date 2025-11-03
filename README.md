@@ -4,7 +4,17 @@
 
 DzioTech accompagne les **freelances et PME** dans la **conception de sites web modernes** et l’**intégration d’IA** pour automatiser, analyser et valoriser leurs données.  
 
-Notre objectif est de fournir des solutions professionnelles, rapides et intelligentes qui transforment les chiffres en décisions concrètes.
+Notre mission : transformer vos idées et vos données en **projets concrets et performants**, avec des interfaces intuitives et des dashboards qui donnent du sens à vos chiffres.
+
+---
+
+##  Pourquoi choisir DzioTech ?
+
+- **Solutions sur mesure** : chaque projet est adapté à vos besoins spécifiques.  
+- **IA intégrée** : chatbots intelligents, analyse de données et reporting automatisé.  
+- **Design moderne et responsive** : sites et dashboards professionnels sur tous les appareils.  
+- **Rapidité et efficacité** : développement optimisé pour un lancement rapide.  
+- **Accompagnement freelance / PME** : conseils et suivi pour maximiser votre visibilité et vos résultats.
 
 ---
 
@@ -29,3 +39,7 @@ Ce projet est construit avec :
 - Visualisations de données et reporting automatisé  
 
 ---
+
+## Contact
+
+Pour toute demande de collaboration ou projet sur mesure, **contactez-nous via le formulaire sur le site**.
