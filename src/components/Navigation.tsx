@@ -7,10 +7,30 @@ const Navigation = () => {
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false);
-    }
+    if (!element) return;
+
+    const navbarHeight = 64; // hauteur navbar fixe
+    const start = window.pageYOffset;
+    const end = element.getBoundingClientRect().top + start - navbarHeight;
+    const duration = 800; // durée en ms
+    const startTime = performance.now();
+
+    const animate = (time: number) => {
+      const elapsed = time - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+
+      // easing inOutQuad pour scroll smooth naturel
+      const ease = progress < 0.5
+        ? 2 * progress * progress
+        : -1 + (4 - 2 * progress) * progress;
+
+      window.scrollTo(0, start + (end - start) * ease);
+
+      if (elapsed < duration) requestAnimationFrame(animate);
+    };
+
+    requestAnimationFrame(animate);
+    setIsOpen(false);
   };
 
   return (
