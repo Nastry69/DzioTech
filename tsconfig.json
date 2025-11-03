@@ -1,0 +1,29 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                     // active toutes les vérifications strictes
+    "noImplicitAny": true,              // interdit les any implicites
+    "strictNullChecks": true,           // vérifie null et undefined
+    "noUnusedLocals": true,             // avertit pour variables inutilisées
+    "noUnusedParameters": true,         // avertit pour paramètres inutilisés
+    "skipLibCheck": true,               // ignore les types des librairies externes
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+    
+  }
+}
