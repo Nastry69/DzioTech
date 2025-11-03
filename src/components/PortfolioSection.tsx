@@ -42,10 +42,10 @@ const projects = [
     status: "Terminé"
   },
   {
-    title: "D'autres projets en cours",
+    title: "Projet en cours...",
     description: "Vous verrez les projets en au fur et à mesure de leur avancée. Tous mes sites peuvent être accompagnés d’une maintenance mensuelle pour mises à jour, corrections et suivi IA.",
     image: projectAiImage,
-    technologies: ["La techno dépend du projet",],
+    technologies: ["En cours de séléction",],
     features: [
       "En cours d'élaboration"
     ],
