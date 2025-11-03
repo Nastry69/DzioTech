@@ -16,7 +16,7 @@ const Footer = () => {
 
           <div className="flex gap-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/Nastry69/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-[var(--transition-smooth)]"
@@ -25,7 +25,7 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/tristan-dzioch/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-[var(--transition-smooth)]"
@@ -34,7 +34,7 @@ const Footer = () => {
               <Linkedin size={20} />
             </a>
             <a 
-              href="mailto:contact@devai.com"
+              href="mailto:tristandzioch@hotmail.fr"
               className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-[var(--transition-smooth)]"
               aria-label="Email"
             >

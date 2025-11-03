@@ -39,6 +39,12 @@ const Navigation = () => {
             >
               Services
             </button>
+            <button
+              onClick={() => scrollToSection("pricing")}
+              className="text-foreground hover:text-primary transition-[var(--transition-smooth)]"
+            >
+              Tarif
+            </button>
             <Button 
               onClick={() => scrollToSection("contact")} 
               variant="hero" 
